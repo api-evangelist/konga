@@ -1,0 +1,11 @@
+{
+  "repo": "konga",
+  "feeds": [
+    {
+      "source": "https://blog.konga.com/feed/",
+      "error": "TimeoutError"
+    }
+  ],
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 12
+}
