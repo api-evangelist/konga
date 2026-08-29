@@ -25,6 +25,17 @@ description: >-
   approved merchants. As a result, Konga is profiled here as a provider
   index rather than as an actively documented public-API company.
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
