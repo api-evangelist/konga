@@ -1,4 +1,4 @@
-# konga
+# Konga
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Konga — Nigerian e-commerce marketplace with KongaPay payments and Konga Travel
+Konga is a Lagos, Nigeria-based e-commerce company founded in July 2012 and now operating as Nigeria's leading online shopping marketplace, combining a first-party retail business with a third-party seller marketplace across consumer electronics, mobile phones, home appliances, fashion, groceries, beauty, and lifestyle categories. Konga runs a vertically integrated stack alongside its storefront: KongaPay, a Central Bank of Nigeria-licensed and NDIC-insured payments platform offering checkout, transfers, virtual accounts, multi-currency wallets, POS, bill payments, savings, and merchant payouts; Konga Travel & Tours, an IATA-certified travel agency providing flight bookings, hotels, and vacation packages; Konga Health (Medical Direct); Konga Foods/Groceries; KongaNow same-day delivery; and KXpress Logistics for nationwide fulfillment. Konga's revenue model spans marketplace commissions, first-party retail margin, KongaPay transaction fees, logistics fees, travel agency commissions, and seller advertising. Konga does not operate a unified public developer program: the marketplace exposes no documented public REST API for orders, products, or sellers; KongaPay published Android, iOS, and WooCommerce SDKs and SDK docs at kongapay.github.io, but that GitHub organization was archived on July 1, 2023, and the current KPay aggregator API documentation lives at kpayment-org.gitbook.io with limited public surface area focused on POS, Web Payment Gateway, Virtual Account, and Payment Link integrations for approved merchants. As a result, Konga is profiled here as a provider index rather than as an actively documented public-API company.
+
+**Areas:** E-Commerce · Marketplace · Retail · Online Shopping · Payments · Fintech · Mobile Money · Wallets · Point-of-Sale · Bill Payments · Travel · Flights
+
+## Konga on APIs.io
+
+Everything profiled for Konga is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/konga/](https://apis.io/providers/konga/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Konga Domain Security](https://apis.io/security/konga/konga-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.konga.com)
+- [Blog](https://blog.konga.com/feed/)
+- [Terms of service](https://www.konga.com/content/terms-and-conditions)
+- [Privacy policy](https://www.konga.com/content/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 8.5** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 12.5** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/konga/](https://apis.io/providers/konga/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Konga: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/konga/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
